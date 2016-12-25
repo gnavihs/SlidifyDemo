@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fatalities and Injuries Due to Different Types Of Storms</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Fatalities and Injuries Due to Different Types Of Storms">
+  <meta name="author" content="Shivang Agarwal">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Fatalities and Injuries Due to Different Types Of Storms</h1>
+    <h2></h2>
+    <p>Shivang Agarwal<br/></p>
+  </hgroup>
+    <a href="https://github.com/gnavihs/SlidifyDemo/zipball/gh-pages" class="example">
+     Download
+    </a>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Synopsis</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Storms and other severe weather events can cause public health problems for communities and municipalities. Many severe events can result in fatalities and injuries and preventing such outcomes to the extent possible is a key concern.</p>
+
+<p>This presentation explores the U.S. National Oceanic and Atmospheric Administration&#39;s (NOAA) storm database. This database tracks characteristics of major storms and weather events in the United States, including when and where they occur, as well as estimates of any fatalities and injuries.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Shiny Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>I found out 7 most harmful storms and summarized the number of fatalities and injuries caused by them every year since 1992 in United States of America.
+Here is a brief summary of the data:</p>
+
+<pre><code>##       Year               Event.Type   Fatalities        Injuries      
+##  Min.   :1992   EXCESSIVE HEAT:18   Min.   :  0.00   Min.   :   0.00  
+##  1st Qu.:1997   FLASH FLOOD   :19   1st Qu.: 20.25   1st Qu.:  22.25  
+##  Median :2002   FLOOD         :19   Median : 36.00   Median : 215.50  
+##  Mean   :2002   HEAT          :13   Mean   : 57.21   Mean   : 407.25  
+##  3rd Qu.:2006   LIGHTNING     :19   3rd Qu.: 57.25   3rd Qu.: 437.50  
+##  Max.   :2011   TORNADO       :19   Max.   :687.00   Max.   :6163.00  
+##                 TSTM WIND     :15
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Shiny Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The app creates a bubble plot for fatalities versus year. Each type of storm is coloured differently. The size of the bubble indicates the number of people injured. Thus, making it a 4 dimensional plot. As you hit play on the slider, the year gets incremented and you can see the impact each year by each storm(given the data is available).</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h1>Thank You!</h1>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Synopsis'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Shiny Application'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Shiny Application'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Thank You!'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+   
+  </html>
