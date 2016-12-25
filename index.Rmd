@@ -15,9 +15,9 @@ github:
 ---
 
 ## Synopsis
-Storms and other severe weather events can cause public health problems for communities and municipalities. Many severe events can result in fatalities and injuries and preventing such outcomes to the extent possible is a key concern.
+> Storms and other severe weather events can cause public health problems for communities and municipalities. Many severe events can result in fatalities and injuries and preventing such outcomes to the extent possible is a key concern.
 
-This presentation explores the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database. This database tracks characteristics of major storms and weather events in the United States, including when and where they occur, as well as estimates of any fatalities and injuries.
+> This presentation explores the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database. This database tracks characteristics of major storms and weather events in the United States, including when and where they occur, as well as estimates of any fatalities and injuries.
 
 
 --- .class #id 
@@ -41,7 +41,7 @@ The app creates a bubble plot for fatalities versus year. Each type of storm is 
 
 --- .class #id 
 
-# Thank You!
+### Thank You!
 
 
 
