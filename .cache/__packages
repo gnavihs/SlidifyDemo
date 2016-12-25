@@ -4,3 +4,7 @@ shiny
 googleCharts
 slidify
 slidifyLibraries
+rsconnect
+plyr
+ggplot2
+reshape2

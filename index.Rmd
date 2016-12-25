@@ -29,6 +29,7 @@ I found out 7 most harmful storms and summarized the number of fatalities and in
 Here is a brief summary of the data:
 
 ```{r echo=F}
+setwd("~/Downloads/DataScience/Course-9/SlidifyDemo")
 data <- read.csv("MyData.csv", header = TRUE, sep = ",", col.names = c("Year", "Event Type", "Fatalities", "Injuries"))
 summary(data)
 ```
@@ -41,6 +42,23 @@ The app creates a bubble plot for year versus fatalities. Each type of storm is 
 
 --- .class #id 
 
+A bar plot giving an idea of number of fatalities and injuries:
+
+```{r echo=F, warning=F}
+Fatalities <- tapply(data$Fatalities, data$Event.Type, sum)
+Injuries <-  tapply(data$Injuries, data$Event.Type, sum)
+Population <- data.frame(Fatalities, Injuries)
+Population$EventType <- row.names(Population)
+Population <- melt(cbind(Population[1], as.matrix(Population[-1])), id = "EventType")
+Population$value <- as.numeric(Population$value)
+g <- ggplot(Population, aes(x = reorder(EventType, -value), y=value, fill=factor(variable)))+
+     geom_bar(stat="identity", position="dodge")+
+     coord_cartesian(ylim = c(0, 7500))+
+     scale_fill_discrete(name="Damage Type", labels=c("Fatalities", "Injuries"))+
+     theme(axis.text.x =  xaxis)+
+     labs(title = "Population Damage", x = "Event Type", y = "Count")
+g
+```
 ### Thank You!
 
 
