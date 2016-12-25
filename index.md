@@ -43,7 +43,7 @@ Here is a brief summary of the data:
 --- .class #id 
 
 ## Shiny Application
-The app creates a bubble plot for fatalities versus year. Each type of storm is coloured differently. The size of the bubble indicates the number of people injured. Thus, making it a 4 dimensional plot. As you hit play on the slider, the year gets incremented and you can see the impact each year by each storm(given the data is available).
+The app creates a bubble plot for year versus fatalities. Each type of storm is coloured differently. The size of the bubble indicates the number of people injured. Thus, making it a 4 dimensional plot. As you hit play on the slider, the year gets incremented and you can see the fatality impact each year by each storm(given the data is available).
 
 
 --- .class #id 
