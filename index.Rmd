@@ -59,6 +59,7 @@ g <- ggplot(Population, aes(x = reorder(EventType, -value), y=value, fill=factor
      labs(title = "Population Damage", x = "Event Type", y = "Count")
 g
 ```
+
 ### Thank You!
 
 

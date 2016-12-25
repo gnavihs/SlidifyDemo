@@ -51,6 +51,7 @@ The app creates a bubble plot for year versus fatalities. Each type of storm is 
 A bar plot giving an idea of number of fatalities and injuries:
 
 ![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png)
+
 ### Thank You!
 
 
